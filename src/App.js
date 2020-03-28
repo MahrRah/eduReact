@@ -1,6 +1,10 @@
 import React from 'react';
 import './App.css';
 import ListItems from "./ListItem";
+import {library} from '@fortawesome/fontawesome-svg-core'
+import {faTrash} from '@fortawesome/free-solid-svg-icons'
+
+library.add(faTrash);
 
 class App extends React.Component {
     constructor(props) {
@@ -9,11 +13,14 @@ class App extends React.Component {
             items: [],
             currentItem: {
                 text: '',
-                key: ''
+                key: '',
+                state: false
             }
         };
         this.handleInput = this.handleInput.bind(this);
         this.addItem = this.addItem.bind(this);
+        this.deleteItem = this.deleteItem.bind(this);
+        this.setUpdate = this.setUpdate.bind(this);
     }
 
     handleInput(e) {
@@ -23,6 +30,25 @@ class App extends React.Component {
                 key: Date.now()
             }
         })
+    }
+
+    deleteItem(key) {
+        const filteredItems = this.state.items.filter(item => item.key !== key);
+        this.setState({
+            items: filteredItems
+        })
+    }
+
+    setUpdate(text, key) {
+        const items = this.state.items;
+        items.map(item => {
+            if (item.key === key) {
+                item.text = text;
+            }
+        });
+        this.setState({items: items});
+
+
     }
 
     addItem(e) {
@@ -35,7 +61,8 @@ class App extends React.Component {
                 items: newItems,
                 currentItem: {
                     text: '',
-                    key: ''
+                    key: '',
+                    state: false
                 }
             })
         }
@@ -48,11 +75,11 @@ class App extends React.Component {
                 <header>
                     <form id="todoform" onSubmit={this.addItem}>
                         <input type="text" placeholder="Enter task" value={this.state.currentItem.text}
-    onChange={this.handleInput}/>
+                               onChange={this.handleInput}/>
                         <button type="submit">Add</button>
                     </form>
                 </header>
-                <ListItems items={this.state.items}/>
+                <ListItems items={this.state.items} deleteItem={this.deleteItem} setUpdate={this.setUpdate}/>
             </div>
         );
     }
