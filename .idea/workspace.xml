@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11eb6100-c3a3-4dd4-b51d-d5b6221ac800" name="Default Changelist" comment="fully functioning todo list">
+    <list default="true" id="11eb6100-c3a3-4dd4-b51d-d5b6221ac800" name="Default Changelist" comment="line through if done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListItem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585411281118</updated>
-      <workItem from="1585411282790" duration="8161000" />
+      <workItem from="1585411282790" duration="9563000" />
     </task>
     <task id="LOCAL-00001" summary="initial Work">
       <created>1585416151846</created>
@@ -86,7 +89,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585425715227</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fully functioning todo list">
+      <created>1585425853074</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585425853074</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fully functioning todo list">
+      <created>1585425858784</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585425858784</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,22 +112,27 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial Work" />
     <MESSAGE value="fully functioning todo list" />
-    <option name="LAST_COMMIT_MESSAGE" value="fully functioning todo list" />
+    <MESSAGE value="line through if done" />
+    <option name="LAST_COMMIT_MESSAGE" value="line through if done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1269" y="357" key="#ESLint" timestamp="1585422847776">
       <screen x="-1877" y="148" width="1877" height="1057" />
     </state>
     <state x="-1269" y="357" key="#ESLint/-1877.148.1877.1057/0.23.2560.1417@-1877.148.1877.1057" timestamp="1585422847776" />
-    <state x="-1277" y="294" width="915" height="795" key="CommitChangelistDialog2" timestamp="1585425852973">
+    <state x="-1277" y="294" width="915" height="795" key="CommitChangelistDialog2" timestamp="1585427273136">
       <screen x="-1878" y="148" width="1878" height="1057" />
     </state>
     <state x="-1275" y="294" key="CommitChangelistDialog2/-1875.148.1875.1057/0.23.2560.1417@-1875.148.1875.1057" timestamp="1585416151671" />
     <state x="-1276" y="294" width="915" height="795" key="CommitChangelistDialog2/-1877.148.1877.1057/0.23.2560.1417@-1877.148.1877.1057" timestamp="1585425731494" />
-    <state x="-1277" y="294" key="CommitChangelistDialog2/-1878.148.1878.1057/0.23.2560.1417@-1878.148.1878.1057" timestamp="1585425852973" />
+    <state x="-1277" y="294" key="CommitChangelistDialog2/-1878.148.1878.1057/0.23.2560.1417@-1878.148.1878.1057" timestamp="1585427273136" />
     <state x="-1360" y="331" key="SettingsEditor" timestamp="1585425847090">
       <screen x="-1878" y="148" width="1878" height="1057" />
     </state>
     <state x="-1360" y="331" key="SettingsEditor/-1878.148.1878.1057/0.23.2560.1417@-1878.148.1878.1057" timestamp="1585425847090" />
+    <state x="-1425" y="393" key="Vcs.Push.Dialog.v2" timestamp="1585425985829">
+      <screen x="-1878" y="148" width="1878" height="1057" />
+    </state>
+    <state x="-1425" y="393" key="Vcs.Push.Dialog.v2/-1878.148.1878.1057/0.23.2560.1417@-1878.148.1878.1057" timestamp="1585425985829" />
   </component>
 </project>

@@ -5,8 +5,11 @@
     color: rgb(255, 252, 245);;
     margin: 20px auto;
 }
-
+::selection {
+    background: transparent; /* WebKit/Blink Browsers */
+}
 .list p {
+    cursor: move;
     padding: 10px;
     position: relative;
 
@@ -15,12 +18,15 @@
 .list p span {
     position: absolute;
     right: 10px;
-    cursor: pointer;
 }
 
 .faicons {
     margin: 0 5px;
     font-size: 15px;
+}
+
+.list p input:focus{
+    outline: none;
 }
 .list p input{
     background-color: transparent;
@@ -29,6 +35,38 @@
     color:rgb(255, 252, 245) ;
 }
 
-.list p input:focus{
+
+/*done tasks*/
+.list-done p input{
+    background-color: transparent;
+    border: 0;
+    font-size: 18px;
+    text-decoration: line-through;
+    color:rgb(255, 252, 245) ;
+}
+
+
+.list-done {
+    background-color: #1C4672;
+    width: 300px;
+    height: 50px;
+    opacity: 0.5;
+    color: rgb(255, 252, 245);;
+    margin: 20px auto;
+}
+
+.list-done p {
+    padding: 10px;
+    position: relative;
+
+}
+
+.list-done p input:focus{
     outline: none;
+}
+
+.list-done p span {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
 }
