@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11eb6100-c3a3-4dd4-b51d-d5b6221ac800" name="Default Changelist" comment="line through if done">
+    <list default="true" id="11eb6100-c3a3-4dd4-b51d-d5b6221ac800" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ListItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListItem.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585411281118</updated>
-      <workItem from="1585411282790" duration="9563000" />
+      <workItem from="1585411282790" duration="11723000" />
     </task>
     <task id="LOCAL-00001" summary="initial Work">
       <created>1585416151846</created>
@@ -103,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585425858784</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="line through if done">
+      <created>1585427299556</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585427299556</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,12 +128,12 @@
       <screen x="-1877" y="148" width="1877" height="1057" />
     </state>
     <state x="-1269" y="357" key="#ESLint/-1877.148.1877.1057/0.23.2560.1417@-1877.148.1877.1057" timestamp="1585422847776" />
-    <state x="-1277" y="294" width="915" height="795" key="CommitChangelistDialog2" timestamp="1585427273136">
+    <state x="-1277" y="294" width="915" height="795" key="CommitChangelistDialog2" timestamp="1585427299416">
       <screen x="-1878" y="148" width="1878" height="1057" />
     </state>
     <state x="-1275" y="294" key="CommitChangelistDialog2/-1875.148.1875.1057/0.23.2560.1417@-1875.148.1875.1057" timestamp="1585416151671" />
     <state x="-1276" y="294" width="915" height="795" key="CommitChangelistDialog2/-1877.148.1877.1057/0.23.2560.1417@-1877.148.1877.1057" timestamp="1585425731494" />
-    <state x="-1277" y="294" key="CommitChangelistDialog2/-1878.148.1878.1057/0.23.2560.1417@-1878.148.1878.1057" timestamp="1585427273136" />
+    <state x="-1277" y="294" key="CommitChangelistDialog2/-1878.148.1878.1057/0.23.2560.1417@-1878.148.1878.1057" timestamp="1585427299416" />
     <state x="-1360" y="331" key="SettingsEditor" timestamp="1585425847090">
       <screen x="-1878" y="148" width="1878" height="1057" />
     </state>

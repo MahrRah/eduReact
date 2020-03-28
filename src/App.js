@@ -3,8 +3,12 @@ import './App.css';
 import ListItems from "./ListItem";
 import {library} from '@fortawesome/fontawesome-svg-core'
 import {faTrash} from '@fortawesome/free-solid-svg-icons'
+import {faEdit} from '@fortawesome/free-solid-svg-icons'
+import {faCheck} from '@fortawesome/free-solid-svg-icons'
 
 library.add(faTrash);
+library.add(faEdit);
+library.add(faCheck);
 
 class App extends React.Component {
     constructor(props) {

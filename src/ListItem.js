@@ -5,14 +5,20 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 function ListItems(props) {
     const items = props.items;
     const listItems = items.map(item => {
-        return <div className={item.state ?"list-done":"list"} key={item.key} onDoubleClick={() => props.changeState(item.key)}>
+        return <div className={item.state ? "list-done" : "list"} key={item.key}>
             <p>
-                <input  type="text" id={item.key} value={item.text}
-                   onChange={(e) => props.setUpdate(e.target.value,item.key)}/>
+                <input type="text" id={item.key} value={item.text}
+                       onChange={(e) => props.setUpdate(e.target.value, item.key)}/>
                 <span>
+                {/*      <FontAwesomeIcon className="faicons" icon='edit'*/}
+                {/*          // onClick={(e) => e.target.id.setAttribute('disabled', 'disabled')}*/}
+                {/*      />*/}
                 <FontAwesomeIcon className="faicons" icon='trash'
                                  onClick={() => props.deleteItem(item.key)}
                 />
+                     <FontAwesomeIcon className="faicons" icon='check'
+                                      onClick={() => props.changeState(item.key)}
+                     />
             </span>
             </p>
         </div>
