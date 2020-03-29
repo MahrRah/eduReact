@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11eb6100-c3a3-4dd4-b51d-d5b6221ac800" name="Default Changelist" comment="">
+    <list default="true" id="11eb6100-c3a3-4dd4-b51d-d5b6221ac800" name="Default Changelist" comment="line through if done">
+      <change afterPath="$PROJECT_DIR$/src/Services/PostForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/UIComponents/ListItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UIComponents/ListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -49,6 +51,14 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Services" />
+      <recent name="$PROJECT_DIR$/src/UIComponents" />
+      <recent name="$PROJECT_DIR$/src/UIComponents/" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -74,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585411281118</updated>
-      <workItem from="1585411282790" duration="11723000" />
+      <workItem from="1585411282790" duration="18632000" />
     </task>
     <task id="LOCAL-00001" summary="initial Work">
       <created>1585416151846</created>
@@ -111,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585427299556</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="line through if done">
+      <created>1585429883105</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585429883105</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,19 +145,37 @@
       <screen x="-1877" y="148" width="1877" height="1057" />
     </state>
     <state x="-1269" y="357" key="#ESLint/-1877.148.1877.1057/0.23.2560.1417@-1877.148.1877.1057" timestamp="1585422847776" />
-    <state x="-1277" y="294" width="915" height="795" key="CommitChangelistDialog2" timestamp="1585427299416">
-      <screen x="-1878" y="148" width="1878" height="1057" />
+    <state x="-1276" y="294" width="915" height="795" key="CommitChangelistDialog2" timestamp="1585478340064">
+      <screen x="-1877" y="148" width="1877" height="1057" />
     </state>
     <state x="-1275" y="294" key="CommitChangelistDialog2/-1875.148.1875.1057/0.23.2560.1417@-1875.148.1875.1057" timestamp="1585416151671" />
-    <state x="-1276" y="294" width="915" height="795" key="CommitChangelistDialog2/-1877.148.1877.1057/0.23.2560.1417@-1877.148.1877.1057" timestamp="1585425731494" />
+    <state x="-1276" y="294" width="915" height="795" key="CommitChangelistDialog2/-1877.148.1877.1057/0.23.2560.1417@-1877.148.1877.1057" timestamp="1585478340064" />
     <state x="-1277" y="294" key="CommitChangelistDialog2/-1878.148.1878.1057/0.23.2560.1417@-1878.148.1878.1057" timestamp="1585427299416" />
+    <state x="-1278" y="294" key="CommitChangelistDialog2/-1880.148.1880.1057/0.23.2560.1417@-1880.148.1880.1057" timestamp="1585429882944" />
+    <state width="1372" height="271" key="GridCell.Tab.0.bottom" timestamp="1585464364516">
+      <screen x="-1881" y="148" width="1881" height="1057" />
+    </state>
+    <state width="1372" height="271" key="GridCell.Tab.0.bottom/-1881.148.1881.1057/0.23.2560.1417@-1881.148.1881.1057" timestamp="1585464364516" />
+    <state width="1372" height="271" key="GridCell.Tab.0.center" timestamp="1585464364512">
+      <screen x="-1881" y="148" width="1881" height="1057" />
+    </state>
+    <state width="1372" height="271" key="GridCell.Tab.0.center/-1881.148.1881.1057/0.23.2560.1417@-1881.148.1881.1057" timestamp="1585464364512" />
+    <state width="1372" height="271" key="GridCell.Tab.0.left" timestamp="1585464364511">
+      <screen x="-1881" y="148" width="1881" height="1057" />
+    </state>
+    <state width="1372" height="271" key="GridCell.Tab.0.left/-1881.148.1881.1057/0.23.2560.1417@-1881.148.1881.1057" timestamp="1585464364511" />
+    <state width="1372" height="271" key="GridCell.Tab.0.right" timestamp="1585464364513">
+      <screen x="-1881" y="148" width="1881" height="1057" />
+    </state>
+    <state width="1372" height="271" key="GridCell.Tab.0.right/-1881.148.1881.1057/0.23.2560.1417@-1881.148.1881.1057" timestamp="1585464364513" />
     <state x="-1360" y="331" key="SettingsEditor" timestamp="1585425847090">
       <screen x="-1878" y="148" width="1878" height="1057" />
     </state>
     <state x="-1360" y="331" key="SettingsEditor/-1878.148.1878.1057/0.23.2560.1417@-1878.148.1878.1057" timestamp="1585425847090" />
-    <state x="-1425" y="393" key="Vcs.Push.Dialog.v2" timestamp="1585425985829">
-      <screen x="-1878" y="148" width="1878" height="1057" />
+    <state x="-1427" y="393" key="Vcs.Push.Dialog.v2" timestamp="1585429903268">
+      <screen x="-1880" y="148" width="1880" height="1057" />
     </state>
     <state x="-1425" y="393" key="Vcs.Push.Dialog.v2/-1878.148.1878.1057/0.23.2560.1417@-1878.148.1878.1057" timestamp="1585425985829" />
+    <state x="-1427" y="393" key="Vcs.Push.Dialog.v2/-1880.148.1880.1057/0.23.2560.1417@-1880.148.1880.1057" timestamp="1585429903268" />
   </component>
 </project>
