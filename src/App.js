@@ -36,7 +36,7 @@ class App extends React.Component {
         const options = {
             method: 'get',
             url: 'http://localhost:8080/items',
-        }
+        };
         axio(options)
             .then(response => {
                 inputList = response.data;
@@ -56,20 +56,20 @@ class App extends React.Component {
                 key: Date.now()
             }
         })
-    }
+    };
 
     deleteItem(key) {
         const filteredItems = this.state.items.filter(item => item.key !== key);
         this.setState({
             items: filteredItems
-        })
+        });
         const options = {
             method: 'delete',
             url: 'http://localhost:8080/items/'+key,
             header:{
                 'Content-Type': 'application/json' }
 
-        }
+        };
         axio(options)
             .then(response => {
                 console.log(response);
@@ -84,7 +84,7 @@ class App extends React.Component {
         let updateItem;
         items.map(item => {
             if (item.key === key) {
-                updateItem = item
+                updateItem = item;
                 item.state = !item.state;
             }
         });
@@ -100,10 +100,8 @@ class App extends React.Component {
                 text: updateItem.text,
                 state: updateItem.state
             }
-        }
+        };
         axio(options)
-            .then(response => {
-            })
             .catch(error =>{
                 console.log(error)
             })
@@ -128,13 +126,11 @@ class App extends React.Component {
                 text: text,
                 state: false
             }
-        }
+        };
         axio(options)
-            .then(response => {
-            })
             .catch(error =>{
                 console.log(error)
-            })
+            });
 
     }
 
@@ -164,7 +160,7 @@ class App extends React.Component {
                     text: newItem.text,
                     state: false
                 }
-            }
+            };
             axio(options)
                 .then(response => {
                     console.log(response);
